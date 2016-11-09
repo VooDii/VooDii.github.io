@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?97460580');
+  src: url('../font/fontello.eot?97460580#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?97460580') format('woff2'),
+       url('../font/fontello.woff?97460580') format('woff'),
+       url('../font/fontello.ttf?97460580') format('truetype'),
+       url('../font/fontello.svg?97460580#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+ 
+  font-variant: normal;
+  text-transform: none;
+ 
+  line-height: 1em;
+ 
+  margin-left: .2em;
+ 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ 
+.icon-clock:before { content: '\e800'; } /* '' */
+.icon-mail:before { content: '\e801'; } /* '' */
+.icon-home-2:before { content: '\e803'; } /* '' */
+.icon-home-1:before { content: '\e806'; } /* '' */
+.icon-phone-1:before { content: '\e80a'; } /* '' */
+.icon-facebook:before { content: '\f09a'; } /* '' */
+.icon-angle-double-down:before { content: '\f103'; } /* '' */
+.icon-angle-down:before { content: '\f107'; } /* '' */
+.icon-quote-left:before { content: '\f10d'; } /* '' */
+.icon-quote-right:before { content: '\f10e'; } /* '' */
+.icon-youtube-1:before { content: '\f167'; } /* '' */
+.icon-vkontakte:before { content: '\f189'; } /* '' */
