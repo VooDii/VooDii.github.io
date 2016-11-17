@@ -200,6 +200,13 @@ a {
 	border-collapse: collapse;
 }
 
+#main td{
+	padding-bottom: 40px;
+}
+
+.td-link-left {
+}
+
 .td-link-right {
 	text-align: center;
 	width: 620px;
@@ -211,7 +218,7 @@ a {
 	width: 370px;
 }
 
-.td-map-left span[class^="icon-"] {
+.td-map-left {
 	color: #7B0306;
 	font-size: 1.2em;
 	padding-right: 0.3em;
@@ -251,8 +258,4 @@ a {
 	height: 32px;
 	margin-bottom: 2px;
 	width: 32px;
-}
-
-.social-btn:last-child {
-	margin-bottom: 0;
 }
