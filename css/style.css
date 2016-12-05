@@ -50,6 +50,7 @@ body {
 	margin: 0 auto;
 	width: 800px;
 }
+
 .layout-positioner::after {
 	clear: both;
 	content: "";
@@ -62,6 +63,7 @@ a {
 }
 
 /* ** ** Хедер (шапка) сайта ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** */
+
 #header a {
 	color: #F5E7B3;
 	display: inline-block;
@@ -94,6 +96,7 @@ a {
 }
 
 /* ** ** Главное меню ** ** ** ** ** ** ** ** ** ** */
+
 .main-menu {
 	list-style: none;
 	text-align: center;
@@ -154,6 +157,7 @@ a {
 }
 
 /* ** ** Контентная часть сайта ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** */
+
 #main h1 {
 	border-bottom: 2px solid #7B0306;
 	color: #7B0306;
@@ -242,12 +246,16 @@ a {
 	color: #7B0306;
 	font-weight: bold;
 }
+
 /* ** ** Подвал (футер) сайта ** ** ** ** ** ** ** ** ** ** */
+
 #footer a {
 	color: #F5E7B3;
 	display: inline-block;
 }
+
 /* ** ** Кнопки соц. сетей ** ** ** ** ** ** ** ** ** ** */
+
 .social {
 	position: absolute;
 		left: 810px;
